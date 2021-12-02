@@ -34,7 +34,6 @@ fun main() {
         return increases
     }
 
-    // test if implementation meets criteria from the description, like:
     val input = readInput("day1/Day01").map{ i -> i.toInt() }.toList()
 
     println(part1(input))
