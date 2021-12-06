@@ -1,6 +1,7 @@
 package day4
 
 import readInput
+import kotlin.streams.toList
 
 data class Tile(val value: Int) {
     var marked: Boolean = false
